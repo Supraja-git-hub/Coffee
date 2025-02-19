@@ -1,0 +1,104 @@
+img{
+    margin: 0;
+    padding: 0;
+}
+
+.parent_main{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.parent1{
+
+width: 50%;
+}
+
+.tiger >img{
+    position: relative;
+    left: -190px;
+    top: 150px;
+    border-radius: 10px;
+    z-index: -1;
+
+   
+    
+
+}
+.elephant >img{
+    /* background-color: yellow; */
+    position: relative;
+    left: -400px;
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    bottom: 190px;
+    z-index: 0;
+    box-shadow: 3px 3px 3px black ;
+}
+.bike {
+    /* background-color: red; */
+    position: relative;
+    left: 200px;
+    bottom: 750px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 50px;
+    width: 900px;
+    height: 400px;
+    
+}
+
+
+
+
+
+
+
+.kp{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.kp1{
+
+width: 50%;
+}
+
+.kp2 >img{
+    position: relative;
+    left: 350px;
+    top: -550px;
+    border-radius: 10px;
+    z-index: -1;
+    width: 500px;
+
+   
+    
+
+}
+.kp3 >img{
+    /* background-color: yellow; */
+    position: relative;
+    left: 800px;
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    top: -1050px;
+    z-index: 0;
+    box-shadow: 3px 3px 3px black ;
+    flex-wrap: wrap;
+}
+.kp4 {
+   
+    position: relative;
+    left: -350px;
+    bottom: 1400px;
+    border-radius: 50px;
+    background-color: white;
+    padding: 50px;
+    width: 750px;
+    height: 500px;
+    z-index: 0;
+}
